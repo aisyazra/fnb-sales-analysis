@@ -38,19 +38,22 @@ This analysis aims to provide a data-driven view of the business's sales perform
 
 ## Dataset
 
-The dataset contains transaction and product information from an anonymized Indonesian F&B business in Surabaya, East Java.
+## Data Source
 
-### Transactions
-- **53,820 transactions**
-- **3 outlets**
-- **January–September 2025**
-- 11 transaction-level attributes, including sales amount, date, time, outlet, payment method, items purchased, and loyalty card usage.
+This project uses the **[Anonymous Transactional Dataset](https://data.mendeley.com/datasets/kcgf45y24m/2)**, publicly available on Mendeley Data.
 
-### Products
-- **96 products**
-- Product-level information including product name, variant, category, price, and description.
+The dataset originates from an anonymized food and beverage (F&B) micro, small, and medium-sized enterprise (MSME) operating multiple outlets in Surabaya, East Java, Indonesia. The original records were collected through the business's Point-of-Sale (POS) system between January and September 2025.
 
-The transaction and product datasets were combined during the data preparation stage to enable product- and category-level analysis.
+The dataset consists of two CSV files:
+
+| Dataset | Description | Records |
+|---|---|---:|
+| Transactions | Transaction dates, times, outlets, sales amounts, purchased items, and payment information | 53,820 |
+| Products | Product names, variants, categories, prices, and descriptions | 96 |
+
+**Source:** [Mendeley Data — Anonymous Transactional Dataset, Version 2](https://data.mendeley.com/datasets/kcgf45y24m/2)
+
+This project focuses on sales performance analysis using MySQL, with additional data preparation and transformation to support product-level and category-level analysis.
 
 ## Tools & Technologies
 
