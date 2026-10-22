@@ -36,8 +36,6 @@ This analysis aims to provide a data-driven view of the business's sales perform
 6. What are the **peak transaction hours**, and how does transaction activity vary throughout the day?
 7. What patterns can be observed in **loyalty card transactions**, particularly in terms of transaction volume and recorded sales value?
 
-## Dataset
-
 ## Data Source
 
 This project uses the **[Anonymous Transactional Dataset](https://data.mendeley.com/datasets/kcgf45y24m/2)**, publicly available on Mendeley Data.
